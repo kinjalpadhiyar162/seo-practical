@@ -1,293 +1,620 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <title>F.B. ENTERPRISE - Beauty & Cosmetics</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
     <style>
-        body{
+        body {
             background-color: burlywood;
         }
-        .h{
+
+        .h {
             background: bisque;
-            color:black;
+            color: black;
             padding: 6px;
             text-align: center;
             font-size: 20px;
         }
-        .n a:hover{
+
+        .n a:hover {
             color: #bb1861;
         }
-        .b{
+
+        .b {
             background-color: bisque;
         }
-        .s{
+
+        .s {
             background-color: rgb(255, 0, 144);
             font-size: 20px;
         }
-        .sp{
+
+        .sp {
             font-size: 35px;
         }
     </style>
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <div class="container mt-3">
         <div class="row">
+
             <div class="col-md-3">
-                <img src="d:\F.B.ENTERPRISE\Cosmetics Logo.png" class="rounded-circle" height="200px" />
+                <img src="Cosmetics Logo.png"
+                     class="rounded-circle"
+                     height="200px"
+                     alt="F.B. Enterprise Cosmetics Logo">
             </div>
+
             <div class="col-md-9">
+
                 <div class="d-flex justify-content-between align-items-center h">
-                <span class="text-start sp">F.B. ENTERPRISE</span>
-                <div>
-                    <button class="btn me-2 text-white s" data-bs-toggle="modal" data-bs-target="#signinModal">Sign In</button>
-                    <button class="btn text-white s" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+                    <span class="text-start sp">F.B. ENTERPRISE</span>
+
+                    <div>
+                        <button class="btn me-2 text-white s"
+                                data-bs-toggle="modal"
+                                data-bs-target="#signinModal">
+                            Sign In
+                        </button>
+
+                        <button class="btn text-white s"
+                                data-bs-toggle="modal"
+                                data-bs-target="#signupModal">
+                            Sign Up
+                        </button>
+                    </div>
                 </div>
-            </div>
-                    <nav class="navbar justify-content-center navbar-expand-md rounded bg-light text-white mt-3 n">
-                        <ul class="navbar-nav">
-                            <li class="nav-items">
-                                <a href="home.html" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="categories.html" class="nav-link">Categories</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="about.html" class="nav-link">About Us</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="contact.html" class="nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav class="navbar justify-content-center navbar-expand-md rounded bg-light text-white mt-2 n">
-                        <ul class="navbar-nav">
-                             <li class="nav-items">
-                                <a href="Mack Up.html" class="nav-link">MackUp</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="hair.html" class="nav-link">Hair Care</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="skin.html" class="nav-link">Skin Care</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="appliance.html" class="nav-link">Appliances</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="fragrance.html " class="nav-link">Fragrance</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+
+                <!-- MAIN NAVIGATION -->
+                <nav class="navbar justify-content-center navbar-expand-md rounded bg-light text-white mt-3 n">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-items">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="categories.html" class="nav-link">Categories</a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="about.html" class="nav-link">About Us</a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- CATEGORY NAVIGATION -->
+                <nav class="navbar justify-content-center navbar-expand-md rounded bg-light text-white mt-2 n">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-items">
+                            <a href="Mack Up.html" class="nav-link">MackUp</a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="hair.html" class="nav-link">Hair Care</a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="skin.html" class="nav-link">Skin Care</a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="appliance.html" class="nav-link">Appliances</a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="fragrance.html" class="nav-link">Fragrance</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
             </div>
         </div>
     </div>
+
+
+    <!-- BANNER -->
     <div class="container">
         <div class="rounded mx-auto text-center pt-3">
-        <img src="d:\F.B.ENTERPRISE\banner.png" width="100%" height="550px"/>
+
+            <img src="banner.png"
+                 width="100%"
+                 height="550px"
+                 alt="F.B. Enterprise Beauty Banner">
+
         </div>
     </div>
+
+
+    <!-- BEST BEAUTY SALE -->
     <div class="container mt-3">
-          <div class="rounded mx-auto text-center pt-3 py-2 b">
+
+        <div class="rounded mx-auto text-center pt-3 py-2 b">
             <h2>BEST BEAUTY SALE</h2>
-        </div>  
         </div>
+
+    </div>
+
+
+    <!-- PRODUCTS ROW 1 -->
     <div class="container pt-3">
+
         <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="d:\F.B.ENTERPRISE\cli.avif">
-                        <div class="card-body text-center">
-                            <h5>CLINIQUE</h5>
-                            <button class="btn btn-primary float-center">View Products</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="d:\F.B.ENTERPRISE\ch.avif">
-                        <div class="card-body text-center">
-                            <h5>Charlotte Tilbury</h5>
-                            <button class="btn btn-primary float-center">View Products</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="d:\F.B.ENTERPRISE\lNCOME.avif">
-                        <div class="card-body text-center">
-                            <h5>LANCOME</h5>
-                            <button class="btn btn-primary float-center">View Products</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="d:\F.B.ENTERPRISE\swiss1.jpg">
-                        <div class="card-body text-center">
-                            <h5>Swiss Beauty Makup Kit</h5>
-                            <button class="btn btn-primary float-center">View Products</button>
-                        </div>
+
+            <!-- CLINIQUE -->
+            <div class="col-md-3">
+                <div class="card">
+
+                    <img src="cli.avif"
+                         alt="Clinique">
+
+                    <div class="card-body text-center">
+
+                        <h5>CLINIQUE</h5>
+
+                        <button class="btn btn-primary float-center">
+                            View Products
+                        </button>
+
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container pt-3">
-        <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="d:\F.B.ENTERPRISE\Sw1.webp">
-                        <div class="card-body text-center">
-                            <h5>Mystique Eau De Parfum</h5>
-                            <button class="btn btn-primary float-center">View Products</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="d:\F.B.ENTERPRISE\hi.webp">
-                        <div class="card-body text-center">
-                            <h5>Matte Lipstick</h5>
-                            <button class="btn btn-primary float-center">View Products</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="d:\F.B.ENTERPRISE\la1.jpg">
-                        <div class="card-body text-center">
-                            <h5>Priming Compact</h5>
-                            <button class="btn btn-primary float-center">View Products</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="d:\F.B.ENTERPRISE\la2.jpg">
-                        <div class="card-body text-center">
-                            <h5>Blur Perfect Primer</h5>
-                            <button class="btn btn-primary float-center">View Products</button>
-                        </div>
+
+
+            <!-- CHARLOTTE TILBURY -->
+            <div class="col-md-3">
+                <div class="card">
+
+                    <img src="ch.avif"
+                         alt="Charlotte Tilbury">
+
+                    <div class="card-body text-center">
+
+                        <h5>Charlotte Tilbury</h5>
+
+                        <button class="btn btn-primary float-center">
+                            View Products
+                        </button>
+
                     </div>
                 </div>
             </div>
+
+
+            <!-- LANCOME -->
+            <div class="col-md-3">
+                <div class="card">
+
+                    <img src="lNCOME.avif"
+                         alt="LANCOME">
+
+                    <div class="card-body text-center">
+
+                        <h5>LANCOME</h5>
+
+                        <button class="btn btn-primary float-center">
+                            View Products
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- SWISS BEAUTY -->
+            <div class="col-md-3">
+                <div class="card">
+
+                    <img src="swiss1.jpg"
+                         alt="Swiss Beauty Makeup Kit">
+
+                    <div class="card-body text-center">
+
+                        <h5>Swiss Beauty Makup Kit</h5>
+
+                        <button class="btn btn-primary float-center">
+                            View Products
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+
+
+    <!-- PRODUCTS ROW 2 -->
+    <div class="container pt-3">
+
+        <div class="row">
+
+            <!-- MYSTIQUE -->
+            <div class="col-md-3">
+                <div class="card">
+
+                    <img src="Sw1.webp"
+                         alt="Mystique Eau De Parfum">
+
+                    <div class="card-body text-center">
+
+                        <h5>Mystique Eau De Parfum</h5>
+
+                        <button class="btn btn-primary float-center">
+                            View Products
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- MATTE LIPSTICK -->
+            <div class="col-md-3">
+                <div class="card">
+
+                    <img src="hi.webp"
+                         alt="Matte Lipstick">
+
+                    <div class="card-body text-center">
+
+                        <h5>Matte Lipstick</h5>
+
+                        <button class="btn btn-primary float-center">
+                            View Products
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- PRIMING COMPACT -->
+            <div class="col-md-3">
+                <div class="card">
+
+                    <img src="la1.jpg"
+                         alt="Priming Compact">
+
+                    <div class="card-body text-center">
+
+                        <h5>Priming Compact</h5>
+
+                        <button class="btn btn-primary float-center">
+                            View Products
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- BLUR PERFECT PRIMER -->
+            <div class="col-md-3">
+                <div class="card">
+
+                    <img src="la2.jpg"
+                         alt="Blur Perfect Primer">
+
+                    <div class="card-body text-center">
+
+                        <h5>Blur Perfect Primer</h5>
+
+                        <button class="btn btn-primary float-center">
+                            View Products
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- SIGN IN MODAL -->
     <div class="modal fade" id="signinModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5>Sign In</h5>
-                <button class="btn-close" data-bs-dismiss="modal"></button>
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5>Sign In</h5>
+
+                    <button class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <form method="post" action="#">
+
+                        <input type="email"
+                               class="form-control mb-3"
+                               placeholder="Email">
+
+                        <input type="password"
+                               class="form-control mb-3"
+                               placeholder="Password">
+
+                        <input type="submit"
+                               value="Login"
+                               class="btn btn-primary text-white float-start">
+
+                        <input type="reset"
+                               value="Cancle"
+                               class="btn btn-danger text-white float-end">
+
+                    </form>
+
+                </div>
+
             </div>
-            <div class="modal-body">
-                <form method="post" action="#">
-                    <input type="email" class="form-control mb-3" placeholder="Email">
-                    <input type="password" class="form-control mb-3" placeholder="Password">
-                    <input type="submit" value="Login" class="btn btn-primary text-white float-start"/>
-                    <input type="reset" value="Cancle" class="btn btn-danger text-white float-end"/>
-                </form>
-            </div>
+
         </div>
-    </div>
-</div>
 
-<!-- SIGN UP MODAL -->
-<div class="modal fade" id="signupModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5>Sign Up</h5>
-                <button class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+
+    <!-- SIGN UP MODAL -->
+    <div class="modal fade" id="signupModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5>Sign Up</h5>
+
+                    <button class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <form method="post" action="#">
+
+                        <label>Full Name</label>
+
+                        <input type="text"
+                               class="form-control mb-2"
+                               placeholder="Enter Full Name">
+
+
+                        <label>Mobile Number</label>
+
+                        <input type="number"
+                               class="form-control mb-2"
+                               placeholder="Enter Mobile Number">
+
+
+                        <label>Email</label>
+
+                        <input type="email"
+                               class="form-control mb-2"
+                               placeholder="Enter Email">
+
+
+                        <label>Password</label>
+
+                        <input type="password"
+                               class="form-control mb-2"
+                               placeholder="Enter Password">
+
+
+                        <label>Confirm Password</label>
+
+                        <input type="password"
+                               class="form-control mb-2"
+                               placeholder="Confirm Password">
+
+
+                        <label>Country</label>
+
+                        <input type="text"
+                               class="form-control mb-2"
+                               placeholder="Enter Country Name">
+
+
+                        <label>State</label>
+
+                        <input type="text"
+                               class="form-control mb-2"
+                               placeholder="Enter State Name">
+
+
+                        <label>City</label>
+
+                        <input type="text"
+                               class="form-control mb-2"
+                               placeholder="Enter City Name">
+
+
+                        <label>Gender</label>
+                        <br>
+
+                        <input type="radio"
+                               name="gender"
+                               class="mt-3">
+                        Female
+
+                        <input type="radio"
+                               name="gender">
+                        Male
+
+
+                        <input type="submit"
+                               value="Register"
+                               class="btn btn-success text-white float-start">
+
+
+                        <input type="reset"
+                               value="Cancle"
+                               class="btn btn-danger text-white float-end">
+
+                    </form>
+
+                </div>
+
             </div>
-            <div class="modal-body">
-                <form method="post" action="#">
-                    <label>Full Name</label>
-                    <input type="text" class="form-control mb-2" placeholder=" Enter Full Name">
-                    <label> Mobile Number</label>
-                    <input type="number" class="form-control mb-2" placeholder="Enter Mobile Number">
-                    <label>Email</label>
-                    <input type="email" class="form-control mb-2" placeholder="Enter Email">
-                    <label>Password</label>
-                    <input type="password" class="form-control mb-2" placeholder="Enter Password">
-                    <label>Confirm Password</label>
-                    <input type="password" class="form-control mb-2" placeholder="Confirm Password">
-                    <label>Country</label>
-                    <input type="text" class="form-control mb-2" placeholder="Enter Country Name">
-                    <label>State</label>
-                    <input type="text" class="form-control mb-2" placeholder="Enter State Name">
-                    <label>City</label>
-                    <input type="text" class="form-control mb-2" placeholder="Enter City Name">
-                    <label>Gender</label><br>
-                    <input type="radio" name="gender" class="mt-3"/>Female
-                    <input type="radio" name="gender"/>Male
-                    <input type="submit" value="Register" class="btn btn-success text-white float-start"/>
-                    <input type="reset" value="Cancle" class="btn btn-danger text-white float-end"/>
-                </form>
-            </div>
+
         </div>
+
     </div>
-</div>
-<footer class="footer-section mt-5">
-    <div class="container py-6">
-        <div class="row justify-content-center text-center">
-            <!-- Column 1 -->
-            <div class="col-md-4 mb-4 ">
-                <h5 class="footer-title">Help</h5>
-                <ul class="list-unstyled footer-links">
-                    <li class="nav-items">
-                       <a href="contact.html" class="nav-link">Contact Us</a> 
-                    </li>
-                    <li class="nav-items">
-                        <a href="about.html" class="nav-link">About Us</a>
-                    </li>
-                    <li>FAQ</li>
-                    <li>Cancellation & Return</li>
-                    <li>Shipping & Delivery</li>
-                </ul>
+
+
+    <!-- FOOTER -->
+    <footer class="footer-section mt-5">
+
+        <div class="container py-6">
+
+            <div class="row justify-content-center text-center">
+
+                <!-- COLUMN 1 -->
+                <div class="col-md-4 mb-4">
+
+                    <h5 class="footer-title">
+                        Help
+                    </h5>
+
+                    <ul class="list-unstyled footer-links">
+
+                        <li class="nav-items">
+                            <a href="contact.html"
+                               class="nav-link">
+                                Contact Us
+                            </a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="about.html"
+                               class="nav-link">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li>FAQ</li>
+
+                        <li>Cancellation & Return</li>
+
+                        <li>Shipping & Delivery</li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- COLUMN 2 -->
+                <div class="col-md-4 mb-4">
+
+                    <h5 class="footer-title">
+                        Quick Links
+                    </h5>
+
+                    <ul class="list-unstyled footer-links">
+
+                        <li>Offer Zone</li>
+
+                        <li>New Launches</li>
+
+                        <li>Pro Collection</li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- COLUMN 3 -->
+                <div class="col-md-4 mb-4">
+
+                    <h5 class="footer-title">
+                        Top Categories
+                    </h5>
+
+                    <ul class="list-unstyled footer-links">
+
+                        <li class="nav-items">
+                            <a href="Mack Up.html"
+                               class="nav-link">
+                                MackUp
+                            </a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="skin.html"
+                               class="nav-link">
+                                Skin
+                            </a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="hair.html"
+                               class="nav-link">
+                                Hair
+                            </a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="appliance.html"
+                               class="nav-link">
+                                Appliance
+                            </a>
+                        </li>
+
+                        <li class="nav-items">
+                            <a href="fragrance.html"
+                               class="nav-link">
+                                Fragrance
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
             </div>
 
-            <!-- Column 2 -->
-            <div class="col-md-4 mb-4">
-                <h5 class="footer-title">Quick Links</h5>
-                <ul class="list-unstyled footer-links">
-                    <li>Offer Zone</li>
-                    <li>New Launches</li>
-                    <li>Pro Collection</li>
-                </ul>
-            </div>
-
-            <!-- Column 3 -->
-            <div class="col-md-4 mb-4">
-                <h5 class="footer-title">Top Categories</h5>
-                <ul class="list-unstyled footer-links">
-                    <li class="nav-items">
-                        <a href="Mack Up.html" class="nav-link">MackUp</a>
-                    </li>
-                    <li class="nav-items">
-                        <a href="skin.html" class="nav-link">Skin</a>
-                    </li>
-                    <li class="nav-items">
-                        <a href="hair.html" class="nav-link">Hair</a>
-                    </li>
-                    <li class="nav-items">
-                        <a href="appliance.html" class="nav-link">Appliance</a>
-                    </li>
-                    <li class="nav-items">
-                        <a href="fragrance.html" class="nav-link">Fragrance</a>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </div>
 
-    <div class="footer-bottom text-center py-3">
-        © F.B.ENTERPRISE
-    </div>
-</footer>
+
+        <div class="footer-bottom text-center py-3">
+
+            © F.B.ENTERPRISE
+
+        </div>
+
+    </footer>
+
 </body>
 </html>
+```
